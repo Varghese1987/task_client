@@ -37,6 +37,7 @@ function App() {
     setSearchData(null);
     setUser({ name: "", mobile: "" });
     setUpload(false);
+    setSearchTerm("");
   };
 
   const handleUpload = () => {
@@ -72,6 +73,7 @@ function App() {
       if (data.data.code === 1) {
         handleSetAddUser();
         setCount(count + 1);
+        setSearchTerm("");
       }
       Tost(data.data.message, data.data.code);
     });
