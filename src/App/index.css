@@ -1,0 +1,161 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.add_button {
+  background-color: #fff;
+  margin: 0;
+  padding: 0 20px 0 18px;
+  height: 32px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  border-radius: 8px;
+  border: 1px solid #30cd31;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.form_container {
+  width: 30%;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.form_head {
+  font-weight: 700;
+  font-size: 25px;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.user_count {
+  font-weight: 400;
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+}
+
+.form_elements {
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.input_item {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  border-width: 0 0 1px;
+  border-color: black;
+  background-color: rgb(243, 241, 243);
+}
+
+.upload_img {
+  width: 100%;
+  background-color: #b5e51e;
+  /* color: #fff; */
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  border-radius: 25px;
+  border: 1px solid #b5e51e;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.submit_button {
+  width: 100%;
+  background-color: #30cd31;
+  /* color: #fff; */
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  border-radius: 25px;
+  border: 1px solid #30cd31;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.form {
+  background-color: rgb(243, 241, 243);
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.display_container {
+  background-color: #fff;
+  margin: 20px;
+}
+
+.display_text {
+  font-weight: 700;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.img_container {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.img_head {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.img {
+  width: 50%;
+  padding: 20px;
+}
